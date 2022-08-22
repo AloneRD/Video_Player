@@ -1,3 +1,9 @@
+#player{
+    width: 800px;
+    height: 600px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
 .player-menu{
     background-color: black; 
     width: 800px;
