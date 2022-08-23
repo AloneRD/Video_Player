@@ -1,12 +1,13 @@
 #player{
-    width: 800px;
+    max-width: 800px;
     height: 600px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
 }
 
 .player-menu{
     background-color: black; 
-    width: 800px;
 }
 .button-player{
     border: 0px; 
@@ -16,4 +17,9 @@
 
 .button-icon{
     color: aliceblue;
+}
+
+.video,
+.js-video-container{
+    display: contents;
 }
