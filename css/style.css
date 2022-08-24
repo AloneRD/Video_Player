@@ -19,7 +19,6 @@
     color: aliceblue;
 }
 
-.video,
-.js-video-container{
+.video{
     display: contents;
 }

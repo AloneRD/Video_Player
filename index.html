@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,14 +13,8 @@
     <div id="player">
         <div class="video">
             <div class="js-video-container"></div>
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
-            <script src="js/player.js"></script>
-            <script type="text/javascript">
-                createPlayer({elementId: 'player'});
-            </script>
         </div>
-
+        
         <div class="player-menu">
             <button class ='js-play-button button-player play'>
                 <i class="fa fa-play button-icon" aria-hidden="true"></i>
@@ -27,7 +22,21 @@
             <button class ='js-pause-button button-player pause'>
                 <i class="fa fa-pause button-icon" aria-hidden="true"></i>
             </button>
+            <button class = 'js-mute-button button-player button-icon'>
+                <i class="fa fa-volume-up" aria-hidden="true"></i>
+            </button>
+            <button class = 'js-volume-button button-player button-icon'>
+                <i class="fa fa-volume-off" aria-hidden="true"></i>
+            </button>
         </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
+        <script src="js/player.js"></script>
+
+        <script type="text/javascript">
+            createPlayer({elementId: 'player'});
+        </script>
     </div>
     
 
