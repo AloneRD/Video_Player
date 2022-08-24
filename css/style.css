@@ -7,18 +7,28 @@
 }
 
 .player-menu{
+    padding: 0 10px 0 0;
     background-color: black; 
+    display: flex;
+    align-items: center;
+}
+.indent{
+    flex-grow: 1;
 }
 .button-player{
     border: 0px; 
     cursor: pointer;
-    background-color: transparent;
+    background-color: transparent
 }
 
 .button-icon{
+    margin:  0 0 10px 15px;
+    font-size: 25px;
     color: aliceblue;
 }
 
-.video{
+.video,
+.js-video-container
+{
     display: contents;
 }
