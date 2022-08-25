@@ -1,6 +1,7 @@
 # Video_Player
 ![image](https://user-images.githubusercontent.com/39197265/186574789-0b9dbd75-5b49-4c44-8a05-6e7e7dc7dda6.png)
- Демо:
+## Демо:
+ Демо можно посмотреть [тут](https://alonerd.github.io/Video_Player/)
 ## Как учтановть
 1. Скачай программу себе на компьютер.
 ```
