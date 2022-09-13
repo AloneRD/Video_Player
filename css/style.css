@@ -7,7 +7,7 @@
 }
 
 .player-menu{
-    padding: 0 10px 10px 10px;
+    padding: 6px 0 9px 3px;
     background-color: black; 
     display: flex;
     align-items: center;
@@ -16,16 +16,18 @@
     flex-grow: 1;
 }
 .button-player{
-    width: 40px;
-    height: 35px;
+    height: 28px;
+    padding: 1px 11px 0px 7px;
     border: 0px; 
     cursor: pointer;
     background-color: transparent;
-    font-size: 25px;
+    font-size: 19px;
     color: aliceblue;
 }
 
-
+.play{
+    margin-right: 4px;
+}
 
 .video{
     width: 100%;
