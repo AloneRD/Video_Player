@@ -69,4 +69,13 @@ body{
     display: inline-block;
     margin: 0 0 0 -3px;
     cursor: pointer;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .4s
   }
+
+.process-bar:hover .dot{
+    opacity: 100;
+    transition-property: opacity;
+    transition-duration: .4s
+}
