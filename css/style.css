@@ -1,3 +1,7 @@
+body{
+    margin: 5px 0px 0 8px;
+}
+
 #player{
     max-width: 800px;
     height: 600px;
@@ -7,26 +11,25 @@
 }
 
 .player-menu{
-    padding: 6px 0 9px 3px;
+    padding: 5px 0 9px 0px;
     background-color: black; 
     display: flex;
     align-items: center;
 }
-.indent{
+.process-bar{
     flex-grow: 1;
+    height: 6px;
+    border-radius: 5px;
 }
 .button-player{
     height: 28px;
-    padding: 1px 11px 0px 7px;
+    width: 37px;
     border: 0px; 
+    padding: 0;
     cursor: pointer;
     background-color: transparent;
     font-size: 19px;
     color: aliceblue;
-}
-
-.play{
-    margin-right: 4px;
 }
 
 .video{
@@ -35,9 +38,35 @@
 }
 
 .video-timer{
+    padding: 0;
+    border: 0;
     background-color: transparent;
     color: white;
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px
 }
+
+.current-time{
+    margin-right: 12px;
+}
+
+.process-bar-empty{
+    display: flex;
+    align-items: center;
+}
+
+.process-bar-fill{
+    flex-grow: 0;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+    cursor: pointer;
+  }

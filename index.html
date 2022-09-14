@@ -24,14 +24,18 @@
             <button class ='js-pause-button button-player pause'>
                 <i class="fa fa-pause" aria-hidden="true"></i>
             </button>
-            <button class = 'js-mute-button button-player'>
+            <button class = 'js-mute-button button-player volume'>
                 <i class="fa fa-volume-up" aria-hidden="true"></i>
             </button>
-            <button class = 'js-volume-button button-player'>
+            <button class = 'js-volume-button button-player volume'>
                 <i class="fa fa-volume-off" aria-hidden="true"></i>
             </button>
             <button class="js-current-time current-time video-timer"></button>
-            <div class = 'indent'></div>
+            <div class="js-progress process-bar process-bar-empty">
+                <div class="js-progress-slider process-bar process-bar-fill" style="background-color: red;"></div>
+                <span class="dot"></span>
+            </div>
+            
             <button class="js-duration duration video-timer"></button>
             <button class = 'js-fullscreen-button button-player'>
                 <i class="fa fa-expand" aria-hidden="true"></i>
